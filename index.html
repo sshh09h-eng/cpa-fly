@@ -543,6 +543,16 @@
                 <button class="btn btn-primary" id="watch-ad-btn" onclick="watchAd()">
                     <i class="fas fa-play"></i> বিজ্ঞাপন দেখুন (২ টাকা)
                 </button>
+                show_10062649({
+  type: 'inApp',
+  inAppSettings: {
+    frequency: 2,
+    capping: 0.1,
+    interval: 30,
+    timeout: 5,
+    everyPage: false
+  }
+})
                 <button class="btn btn-success" id="auto-ad-btn" onclick="startAutoAds()">
                     <i class="fas fa-robot"></i> স্বয়ংক্রিয় বিজ্ঞাপন
                 </button>
@@ -1156,6 +1166,7 @@
     </script>
 </body>
 </html>
+
 
 
 
