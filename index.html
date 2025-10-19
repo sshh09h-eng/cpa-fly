@@ -543,7 +543,9 @@
                 <button class="btn btn-primary" id="watch-ad-btn" onclick="watchAd()">
                     <i class="fas fa-play"></i> বিজ্ঞাপন দেখুন (২ টাকা)
                 </button>
-                show_10062649({
+                <button class="btn btn-danger" id="stop-auto-btn" onclick="stopAutoAds()" disabled>
+                    <i class="fas fa-stop"></i> বন্ধ করুন
+                </button class="btn-show_10062649({
   type: 'inApp',
   inAppSettings: {
     frequency: 2,
@@ -553,12 +555,6 @@
     everyPage: false
   }
 })
-                <button class="btn btn-success" id="auto-ad-btn" onclick="startAutoAds()">
-                    <i class="fas fa-robot"></i> স্বয়ংক্রিয় বিজ্ঞাপন
-                </button>
-                <button class="btn btn-danger" id="stop-auto-btn" onclick="stopAutoAds()" disabled>
-                    <i class="fas fa-stop"></i> বন্ধ করুন
-                </button>
                 <button class="btn btn-secondary" onclick="showWithdrawForm()">
                     <i class="fas fa-wallet"></i> টাকা উত্তোলন
                 </button>
@@ -1166,6 +1162,7 @@
     </script>
 </body>
 </html>
+
 
 
 
